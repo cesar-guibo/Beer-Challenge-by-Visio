@@ -19,3 +19,11 @@ must be used to reconstruct an image that represents an entire sample.  The
 other one is that the reconstructed image of a sample must be segmented in
 such a way that the cells can be not only recognized, but also differentiated
 as either dead or alive. 
+
+## Example of input images
+Each sample has a couple of images of its partitions that are like the following
+![image](./partition.png)
+
+## Main image processing tasks involved
+The main image processing tasks that will be involved 
+in this project are image restoration and image segmentation.
