@@ -22,7 +22,7 @@ as either dead or alive.
 
 ## Example of input images
 Each sample has a 5x5 grid of images of its partitions that are like the following
-![image](./partition.png).
+![image](./partitions.png).
 Tey are provided by the Visio Company
 
 ## Main image processing tasks involved
