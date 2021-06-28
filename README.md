@@ -21,9 +21,10 @@ such a way that the cells can be not only recognized, but also differentiated
 as either dead or alive. 
 
 ## Example of input images
-Each sample has a couple of images of its partitions that are like the following
-![image](./partition.png)
+Each sample has a 5x5 grid of images of its partitions that are like the following
+![image](./partition.png).
+Tey are provided by the Visio Company
 
 ## Main image processing tasks involved
-- Image restoration
-- Image segmentation
+- Merge the grid of images into a single image through some Image Stitching method
+- Recognize and count the number of cells with a blue color an with a gray color through Image segmentation
