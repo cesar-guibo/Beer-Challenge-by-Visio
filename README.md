@@ -21,10 +21,16 @@ such a way that the cells can be not only recognized, but also differentiated
 as either dead or alive. 
 
 ## Example of input images
-Each sample has a 5x5 grid of images of its partitions that are like the following
-![image](./partitions.png).
-Tey are provided by the Visio Company
+The images that are going to be used were provided be the Visio company as part of the challenge. For each sample of yeast cells, a 5x5 gird of images like the following 
+![image](./example_inputs2.png)
+is formed. Taking a closer look at the images,
+![image](./example_inputs.png)
+we can see that the background grid is very perceptable, but the grouping of the cells themselves can cause a lot of confusion. They are too similar. Because of this, it may make it harder to detect blobs. And since the cells may intersect the grid, detecting clear angles seems to not be easy as well. Those are both challenges for the process of stitching this images together so that segmentation can be performed.
 
-## Main image processing tasks involved
-- Merge the grid of images into a single image through some Image Stitching method
-- Recognize and count the number of cells with a blue color an with a gray color through Image segmentation
+As a preliminary analysis, for the segmentation and detection of the different cells, the fact that at some points both alive and dead cells are clustered together pretty close to one another may pose a challenge.
+
+## Objectives
+- Merge the grid of images into a single image through Image Stitching methods (ImageStitching.ipynb)
+	- Also expected to use image enhancement methods and key points detection and binary images processing.
+- Recognize and count the number of cells with a blue color and with a gray color through Image segmentation.
+	- Also expected to use image enhancement methods, edge detection methods and mathematical morphology
