@@ -22,9 +22,11 @@ as either dead or alive.
 
 ## Objectives
 - Merge the grid of images into a single image through Image Stitching methods
-	- For this, Image enhancement methods, key points detection, image segmentation methods and binary images processing were utilized.
-- Recognize and count the number of cells with a blue color and with a gray color through Image segmentation.
-	- For this, image enhancement methods, edge detection methods, image segmentation methods and mathematical morphology and feature matching were used
+	- For this, Image enhancement methods, key points detection, image segmentation methods and binary images processing were also utilized.
+- Recognize cells in images through segmentation and circle detection.
+	- For this, image enhancement methods, edge detection methods, image segmentation methods and mathematical morphology and feature matching were also used
+- Count the number of cells with a blue color and the number of cells with a gray color
+	- For this color feature matching was used. 	
 
 ## Pipeline utilized
 
